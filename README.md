@@ -96,15 +96,15 @@ Make sure the backend server is running.
 
 ## API Endpoints
 
-  Method   Endpoint                                Description
-  -------- --------------------------------------- -----------------------------
-  POST     /weather/?city={city}                   Get current weather by city
-  POST     /weather/?lat={lat}&lon={lon}           Get weather by coordinates
-  GET      /weather/forecast?city={city}           Get 5-day forecast
-  GET      /weather/history                        Get last 10 searches
-  PUT      /weather/history/{id}?new_city={city}   Update a record
-  DELETE   /weather/history/{id}                   Delete a record
-  GET      /weather/export/csv                     Export history as CSV
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/weather/?city={city}` | Get current weather by city |
+| POST | `/weather/?lat={lat}&lon={lon}` | Get weather by coordinates |
+| GET | `/weather/forecast?city={city}` | Get 5-day forecast |
+| GET | `/weather/history` | Get last 10 searches |
+| PUT | `/weather/history/{id}?new_city={city}` | Update a record |
+| DELETE | `/weather/history/{id}` | Delete a record |
+| GET | `/weather/export/csv` | Export history as CSV |
 
 ------------------------------------------------------------------------
 
