@@ -116,4 +116,4 @@ Frontend: HTML, CSS, JavaScript\
 Weather API: OpenWeatherMap\
 Data Export: Pandas
 
-------------------------------------------------------------------------
+
