@@ -117,7 +117,3 @@ Weather API: OpenWeatherMap\
 Data Export: Pandas
 
 ------------------------------------------------------------------------
-
-## License
-
-MIT License
