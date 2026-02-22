@@ -5,6 +5,9 @@ A full-stack weather application built with FastAPI (backend) and HTML/CSS/JavaS
 ------------------------------------------------------------------------
 
 ## Overview
+<img width="1897" height="857" alt="image" src="https://github.com/user-attachments/assets/598e82ab-4268-45d0-8483-53d6c231cf7f" />
+<img width="1897" height="787" alt="image" src="https://github.com/user-attachments/assets/680940cf-382d-4b63-8f83-3a9bb826e951" />
+
 
 Sky by Riddhi is a modern weather application developed as part of the
 **PM Accelerator Internship Project**. It demonstrates full-stack
