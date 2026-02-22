@@ -59,8 +59,8 @@ RESTful architecture, and responsive frontend design.
 
 ### 1. Clone the repository
 
-    git clone https://github.com/your-username/weather-app.git
-    cd weather-app
+    git clone https://github.com/Riddhi2223/Sky-by-Riddhi.git
+    cd Sky-by-Riddhi
 
 ### 2. Set up the backend
 
