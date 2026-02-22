@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather App: PM Accelerator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
+
+<div class="container">
+    <header class="app-header">
+        <div class="logo">
+            <span class="logo-icon">◎</span>
+            <span class="logo-text">Sky by Riddhi!!</span>
+        </div>
+        <p class="tagline">PM Accelerator Internship Project</p>
+    </header>
+
+    <div class="search-box">
+        <div class="input-wrapper">
+            <span class="search-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                </svg>
+            </span>
+            <input type="text" id="cityInput" placeholder="Search for a city…">
+        </div>
+        <button class="btn btn-primary" onclick="getWeather()">Search</button>
+        <button class="btn btn-ghost" onclick="getLocationWeather()">
+            <span>⊙</span> My Location
+        </button>
+    </div>
+
+    <div id="errorMessage" class="error"></div>
+
+    <div id="currentWeather" class="weather-card"></div>
+
+    <div id="forecastContainer" class="forecast-grid"></div>
+
+    <section class="history-section">
+        <div class="history-header">
+            <h3>Recent Searches</h3>
+            <button class="btn btn-outline" onclick="exportCSV()">↓ Export CSV</button>
+        </div>
+        <div id="historyContainer"></div>
+    </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
